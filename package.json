@@ -1,0 +1,15 @@
+{
+  "name": "retroguvenlik-sources",
+  "version": "1.0.1",
+  "description": "Retro Güvenlik Landing Pages tasarımı için kullanılan dosyaları içerir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Retro",
+    "Güvenlik"
+  ],
+  "author": "Aydın Gündeğer <aydin.gundeger@retroguvenlik.com> (https://retroguvenlik.com)",
+  "license": "ISC"
+}

@@ -1,0 +1,105 @@
+$primary-color: #B23564
+$secondary-color: #FFAA4D
+$thirth-color: #272727
+$fourth-color: #ECECEC
+$fiveth-color: #F9F9F9
+
+$font-48: 48px 'Montserrat',sans-serif
+$font-36: 36px 'Montserrat',sans-serif
+$font-30: 30px 'Montserrat',sans-serif
+$font-24: 24px 'Montserrat',sans-serif
+$font-20: 20px 'Montserrat',sans-serif
+$font-18: 18px 'Montserrat',sans-serif
+$font-14: 14px 'Montserrat',sans-serif
+
+$vh: 100vh
+$vw: 100vw
+$px: 100px
+$yuzde: 100%
+
+$w400: 400
+$w500: 500
+$w600: 600
+$w700: 700
+$w800: 800
+$w900: 900
+
+$posr: relative
+$posa: absolute
+$posf: fixed
+$poss: static
+
+$m20: 20px
+$m30: 30px
+$m50: 50px
+
+$mt20: 20px
+$mt30: 30px
+$mt50: 50px
+
+$mb20: 20px
+$mb30: 30px
+$mb50: 50px
+
+@mixin transition($transition)
+    -moz-transition:    $transition
+    -o-transition:      $transition
+    -webkit-transition: $transition
+    transition:         $transition
+
+@mixin transition-property($property)
+    -moz-transition-property:    $property
+    -o-transition-property:      $property
+    -webkit-transition-property: $property
+    transition-property:         $property
+
+@mixin transition-duration($duration)
+    -moz-transition-property:    $duration
+    -o-transition-property:      $duration
+    -webkit-transition-property: $duration
+    transition-property:         $duration
+
+@mixin transition-timing-function($timing)
+    -moz-transition-timing-function:    $timing
+    -o-transition-timing-function:      $timing
+    -webkit-transition-timing-function: $timing
+    transition-timing-function:         $timing
+
+@mixin transition-delay($delay)
+    -moz-transition-delay:    $delay
+    -o-transition-delay:      $delay
+    -webkit-transition-delay: $delay
+    transition-delay:         $delay
+
+@-webkit-keyframes slideInDown
+  0%
+    -webkit-transform: translate3d(0, -100%, 0)
+    transform: translate3d(0, -100%, 0)
+    visibility: visible
+
+  100%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
+
+@keyframes slideInDown
+  0%
+    -webkit-transform: translate3d(0, -100%, 0)
+    transform: translate3d(0, -100%, 0)
+    visibility: visible
+
+  100%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
+
+.slideInDown
+  -webkit-animation-name: slideInDown
+  animation-name: slideInDown
+  
+*
+  font: 'Montserrat',sans-serif
+
+html
+    -webkit-font-smoothing: subpixel-antialiased
+

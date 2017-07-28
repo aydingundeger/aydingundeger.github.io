@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang='en')
+head
+	meta(charset='UTF-8')
+	meta(http-equiv='Content-Language' content='tr' )
+	title Goldnet Bilişim Teknolojileri
+	meta(author='Aydın Gündeğer')
+	meta(name='description', content='Güvenlik Teknolojileri Adına Herşey!')
+	meta(name='robots' content='index, follow' )
+	meta(name='keywords' content='güvenlik, cctv, security, speed dome, dome, bullet, güvenlik teknolojileri')
+	meta(name='viewport', content='width=device-width, initial-scale=1')
+body
+	include _partials/header.pug
+	include _partials/_kurumsal/sirket-profili.pug
+	include _partials/footer.pug

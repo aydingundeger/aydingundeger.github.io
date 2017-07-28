@@ -1,0 +1,120 @@
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown; }
+
+* {
+  font: 'Montserrat',sans-serif; }
+
+html {
+  -webkit-font-smoothing: subpixel-antialiased; }
+
+footer#footerMain {
+  height: 295px;
+  width: 100%;
+  background-color: #ECECEC; }
+  footer#footerMain .footerWrapper .left-wrapper .logo {
+    background: url("../img/logo-gri.png") no-repeat;
+    height: 72px;
+    width: 238px;
+    position: relative;
+    top: 50px; }
+  footer#footerMain .footerWrapper .left-wrapper .copyright {
+    font: 400 14px 'Montserrat',sans-serif;
+    width: 85%;
+    position: relative;
+    top: 75px;
+    color: #9C9C9C; }
+  footer#footerMain .footerWrapper .left-wrapper .social .facebook,
+  footer#footerMain .footerWrapper .left-wrapper .social .twitter,
+  footer#footerMain .footerWrapper .left-wrapper .social .linkedin,
+  footer#footerMain .footerWrapper .left-wrapper .social .vimeo {
+    display: inline-block;
+    margin-top: 90px;
+    margin-right: 7px; }
+    footer#footerMain .footerWrapper .left-wrapper .social .facebook a,
+    footer#footerMain .footerWrapper .left-wrapper .social .twitter a,
+    footer#footerMain .footerWrapper .left-wrapper .social .linkedin a,
+    footer#footerMain .footerWrapper .left-wrapper .social .vimeo a {
+      color: #9C9C9C;
+      background-color: #FFFFFF;
+      padding: 10px;
+      border-radius: 5px;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -webkit-transition: all 300ms ease-out;
+      transition: all 300ms ease-out; }
+      footer#footerMain .footerWrapper .left-wrapper .social .facebook a:hover,
+      footer#footerMain .footerWrapper .left-wrapper .social .twitter a:hover,
+      footer#footerMain .footerWrapper .left-wrapper .social .linkedin a:hover,
+      footer#footerMain .footerWrapper .left-wrapper .social .vimeo a:hover {
+        color: #FFFFFF;
+        background-color: #9C9C9C; }
+  footer#footerMain .footerWrapper .middle-wrapper {
+    position: relative;
+    right: 20px; }
+    footer#footerMain .footerWrapper .middle-wrapper ul {
+      position: relative;
+      top: 50px; }
+      footer#footerMain .footerWrapper .middle-wrapper ul li.list-head {
+        font: 600 14px 'Source Sans Pro',sans-serif;
+        margin-bottom: 15px; }
+      footer#footerMain .footerWrapper .middle-wrapper ul li {
+        display: inline-block;
+        width: 150%; }
+        footer#footerMain .footerWrapper .middle-wrapper ul li a {
+          font: 500 13px 'Source Sans Pro',sans-serif;
+          line-height: 24px;
+          color: #9B9B9B; }
+  footer#footerMain .footerWrapper .right-wrapper {
+    position: relative;
+    top: 50px; }
+    footer#footerMain .footerWrapper .right-wrapper li.list-head {
+      display: inline-block;
+      font: 600 14px 'Source Sans Pro',sans-serif;
+      margin-bottom: 15px; }
+    footer#footerMain .footerWrapper .right-wrapper p.mailing-para {
+      font: 14px 'Source Sans Pro',sans-serif;
+      font-style: italic;
+      color: #9B9B9B;
+      width: 120%; }
+    footer#footerMain .footerWrapper .right-wrapper input[type='text'] {
+      width: 300px;
+      height: 42px;
+      display: block;
+      background-color: #D8D8D8;
+      border: none;
+      border-radius: 40px; }
+    footer#footerMain .footerWrapper .right-wrapper input[placeholder] {
+      font-style: italic;
+      padding-left: 20px;
+      font-size: 13px; }
+    footer#footerMain .footerWrapper .right-wrapper input[type='submit'] {
+      border: none;
+      float: right;
+      background: url("../img/ok.png") center center no-repeat;
+      background-color: #40A7FF;
+      height: 42px;
+      width: 62px;
+      position: relative;
+      bottom: 42px;
+      border-bottom-right-radius: 30px;
+      border-top-right-radius: 30px;
+      left: 37px; }
