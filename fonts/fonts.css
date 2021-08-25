@@ -4,3 +4,8 @@
     font-weight: normal;
     src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
 }
+
+
+.font{
+    font-family:'Product Sans';
+    font-weight:normal;}
