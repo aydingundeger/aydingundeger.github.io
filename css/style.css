@@ -1,3 +1,40 @@
 .mb20{
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
+
+h1{
+    font-family: 'Product Sans',sans-serif;
+    font-size: 104pt;
+    color: #131B54;}
+h2{
+    font-family: 'Product Sans',sans-serif;
+    font-size: 48pt;
+    color: #131B54;
+    margin-bottom: 20px;}
+p{
+    font-family: 'Product Sans',sans-serif;
+    font-size: 16.65pt;
+    color: #A5A4B4;
+    margin-bottom: 50px;}
+
+.logo{
+    margin: 50px;}
+
+.button {
+    background-color: #27429C;
+    border: none;
+    padding: 13px 32px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.2s all ease-in-out;}
+
+    .button:hover{
+        -webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    4px 4px 20px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         4px 4px 20px 0px rgba(50, 50, 50, 0.75);}
+        
+    .button a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;}
+
